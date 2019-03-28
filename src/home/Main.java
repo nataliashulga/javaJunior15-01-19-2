@@ -10,6 +10,7 @@ public class Main {
         double firstNumber = Methods.getNumber();
 
         System.out.println("Введите оперцию");
+        System.out.println();
         char operation = Methods.getOperation();
 
         System.out.println("Введите второе число");
