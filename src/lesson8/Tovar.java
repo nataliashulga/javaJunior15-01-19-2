@@ -113,12 +113,14 @@ public class Tovar {
     public void printInfo() {
         System.out.printf("Товар: имя - %s, цена - %d, " +
                 "скидка - %d, тип - %s", nameTovar, fixPrise, discont, type);
-        System.out.println();
+        System.out.println("skjdhfj");
+        System.out.println("jdfhkjf");
         for (Harakteristika h : harakteristikas) {
             if(h != null){
                 System.out.println(h.getKey() + ": " +h.getValue());
             }
         }
+        System.out.println();
         for (Otziv o : otzivs) {
             if(o != null){
                 System.out.println("Отзыв от " + o.getNameClient() + ", рейтинг отзыва - " + o.getReiting());
