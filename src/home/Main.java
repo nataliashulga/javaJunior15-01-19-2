@@ -6,6 +6,9 @@ public class Main {
     public static void main(String[] args) {
 
 
+
+
+        System.out.println("dhfjsdhf");
         System.out.println("Введите первое число");
         double firstNumber = Methods.getNumber();
 
