@@ -115,6 +115,7 @@ public class Tovar {
                 "скидка - %d, тип - %s", nameTovar, fixPrise, discont, type);
         System.out.println("skjdhfj");
         System.out.println("jdfhkjf");
+        System.out.println();
         for (Harakteristika h : harakteristikas) {
             if(h != null){
                 System.out.println(h.getKey() + ": " +h.getValue());
