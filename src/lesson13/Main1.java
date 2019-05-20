@@ -6,8 +6,9 @@ public class Main1 {
         Table table3 = table1;
         Table table2 = new Table(12, 4, 67);
 
-        boolean result = table1.equals(table2);
-        System.out.println(result);
+        boolean res = table1.equals(table2);
+        System.out.println(res);
+
 
         System.out.println(table1.equals(table3));
         System.out.println(table1);
