@@ -7,7 +7,7 @@ package lesson1919;
  * @version 1.0
  */
 public class FileAlreadyExistsException extends FileCopyFailedException {
-	private static final long serialVersionUID = -561889344684414375L;
+	private static final long serialVersionUID = -561889344684004145L;
 
 	public FileAlreadyExistsException(String message) {
 		super(message);
