@@ -18,7 +18,7 @@ public class Main {
 
         FindFilesTaskImpl task6 = new FindFilesTaskImpl();
         task6.setDirectory("C:\\Users\\Natalia\\Documents");
-        task6.setFileNameSearchString("111");
+        task6.setFileNameSearchString("111erjewr");
         task6.setPrintStream(System.out);
 
 
